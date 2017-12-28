@@ -1,0 +1,6 @@
+function myFunction() {
+for(var i=0; i<7; i++){
+    var x = document.getElementsByTagName("SPAN")[i].className;
+    document.getElementById("demo").innerHTML = x;
+}
+}
